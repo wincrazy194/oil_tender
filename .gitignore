@@ -1,0 +1,71 @@
+# 敏感信息
+.env
+*.env
+config.local.py
+
+# 数据库
+*.db
+*.db-journal
+data/
+
+# 日志
+*.log
+logs/
+
+# 导出文件
+data/exports/*
+!data/exports/.gitkeep
+output/
+
+# 浏览器数据
+api_test/browser_data_*/
+api_test/browser_data_api/
+api_test/browser_data_sinopec/
+api_test/browser_data_cnooc/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# 调试文件
+debug/
+debug_*.html
+final_*.html
+123/
+
+# API 测试临时输出
+api_test/*.json
+api_test/*.txt
+api_test/*.png
+api_test/output/
